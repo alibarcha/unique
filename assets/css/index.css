@@ -713,3 +713,89 @@ transition-timing-function: ease-in;
 
 /* ====== log page end ====== */
 
+
+/* ============== commingsoon page =================== */
+.commingsoon-area{
+    min-height: 100vh;  
+}
+.commingsoon-text{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--primary-color);
+    display: block;
+    margin-bottom: 10px;
+}
+.commingsoon-title{
+    font-size: 50px;
+    margin: 22px 0;
+    letter-spacing: -1px;
+    color: var(--heading-text-color);
+    line-height: 1.05;
+    font-weight: 800;
+}
+/* ===== counter number=== */
+.counter-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.counter-item{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center; 
+}
+.counter-item h2{
+    color: white;
+    margin-bottom: 0px;
+    font-size: 32px;
+    font-weight: 800;
+}
+.counter-item span{
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+    display: block;
+    color: white;
+    padding-top: 0px;  
+}
+.counter-item:nth-child(1){
+    background-color: rgb(52, 94, 255);
+}
+.counter-item:nth-child(2){
+    background-color: rgb(253, 121, 39);
+}
+.counter-item:nth-child(3){
+    background-color: rgb(7, 213, 210);
+}
+.counter-item:nth-child(4){
+    background-color: rgb(135, 76, 250);
+}
+@media screen and (max-width:994px){
+    .counter-box{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .counter-item{
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        display: flex;
+        margin: 10px;   
+    }
+    .counter-item h2{
+        font-size: 25px;
+    }
+    .counter-item span{
+        font-size: 10px;
+     
+    }
+ 
+}
