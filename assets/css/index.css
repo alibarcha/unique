@@ -44,6 +44,7 @@ a:hover,a:focus,.a:active {
 	--font-family-heading: 'Nunito', sans-serif;
 	--primary-color: #3878ff;
 	--secondary-color: #666666;
+    --section-background-color: #ebf5ff;
     --purple: #7052fb;
 	--pink: #e733ff;
 	--body-text-color: #656565;
@@ -194,7 +195,6 @@ a:hover,a:focus,.a:active {
      box-shadow: none;
      border-color: #3878ff;
  }
- 
 
 /* ========header | navbar components styling====== */
 /* ----- navbar customiaze and override classes----- */
@@ -823,13 +823,207 @@ color: gray;
     padding: 11px 25px;
     border-radius: 50px;
     text-decoration: none;
-    margin: 6px;
+    margin: 4px;
 }
 .tags-link:hover{
     background-color: var(--primary-color);
     color: white;
 }
 /* ---tags end ----- */
+
+/* ==================== blog details ================= */
+
+/* --blockquote---- */
+.theme-blockquote{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--heading-text-color);
+    font-style: italic;
+    line-height: 1.6;
+    padding: 5px 0 5px 25px;
+    position: relative;
+    margin: 31px 0 28px;
+}
+.theme-blockquote::before{
+    content: "";
+    width: 4px;
+    height: 100%;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.block-footer{
+    font-size: 14px;
+    color: var(--primary-color);
+    padding-left: 30px;
+    font-weight: 500;
+    position: relative;
+    margin-top: 11px;
+}
+.block-footer::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 18px;
+    height: 2px;
+    background-color: var(--primary-color);
+}
+/* ---blog-details-list--- */
+.blog-details-list{
+    list-style: none;
+    position: relative;
+    padding-left: 0;
+    margin: 15px 0;
+}
+.blog-details-list li{
+    position: relative;
+    font-size: 14px;
+    line-height: 26px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.blog-details-list li::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 19px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+.blog-details-list li a:hover{
+text-decoration: underline;
+}
+/* blog details list end */
+
+ /* tags and social links area  */
+ .blog-tags{
+     display: flex;
+     flex-wrap: wrap;
+     list-style: none;
+     padding-left: 0;
+       
+ }
+ .blog-tags li{
+     color: var(--paragraph-text-color);
+     padding: 0 6px;
+ }
+ .blog-tags li:first-child{
+     font-weight: 600;
+     color: var(--heading-text-color);
+ }
+ .blog-tags li i{
+    color: var(--primary-color);
+    font-size: 10px;
+}
+.blog-tags li a{
+    text-decoration: none;
+    color: var(--paragraph-text-color);
+    font-size: 13px;
+    font-weight: 500;
+}
+.blog-tags li a:hover{
+    color: var(--primary-color);
+}
+/* social links */
+.blog-social-link{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+}
+.blog-social-link li{
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;  
+}
+.blog-social-link li a{
+    color: white;
+}
+.blog-social-link li:nth-child(1){
+    background-color: #3b5998;
+}
+.blog-social-link li:nth-child(2){
+    background-color: #00acee;
+}
+.blog-social-link li:nth-child(3){
+    background-color: #1976d2;
+}
+ /* tags and social links area end  */
+
+
+/* ----------comment-area------------ */
+.replay-box li{
+    display: flex;
+    align-items: flex-start;
+}
+.content-area{
+   padding-left: 20px;
+}
+.comment-title{
+    font-weight: 20px;
+    margin-bottom: 1px;
+    color: var(--heading-text-color);
+}
+.comment-subtitle{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 7px;
+    color: var(--secondary-color);
+}
+.comment-reply{
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--heading-text-color);
+}
+.comment-reply i{
+    color: var(--secondary-color);
+}
+.comment-reply:hover{
+    color: var(--primary-color);
+}
+
+/* --- media quary ----- */
+@media screen and (max-width:768px){
+    .replay-box li{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-area{
+        padding-left: 0px;
+        padding-top: 10px;
+     }
+    
+}
+
+
+
+
+
+/* ---colorfull input---- */
+.colorfull-input{
+    padding: 18px 25px;
+    margin-bottom: 30px;
+    width: 100%;
+    border-radius: 0px;
+    font-size: 14px;
+    background-color: #ebf5ff;
+    border: none;
+ }
+ .colorfull-input:focus{
+     background-color:#ebf5ff ;
+     box-shadow: none; 
+ }
+
 
 
 
