@@ -15,3 +15,17 @@ const stickyMenu = () => {
 window.addEventListener('scroll', stickyMenu);
 
 
+// --click to top button---
+const updownbtn=()=>{
+
+
+const upBtn=document.querySelector("#click-top");
+if(window.scrollY > 150){
+    click-top.classList.add("movebtn")
+
+}else{
+    click-top.classList.remove("movebtn")
+
+}
+}
+window.addEventListener('scroll',updownbtn)
