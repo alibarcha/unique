@@ -215,7 +215,16 @@ a:hover,a:focus,.a:active {
         max-height: 300px;
         overflow-y: auto;
     }  
-   
+        /* custom navbar icon */
+        .navbar-icon{
+            background-color: var(--primary-color);
+            height: 3px;
+            width: 20px;
+            display: block;
+            margin-top: 4px;
+            margin-bottom: 4px;  
+        }
+    
     }
      /* inner dropdown customize */
      .navbar-inner-dropdown{
@@ -266,8 +275,25 @@ transition-timing-function: ease-in;
         color: black !important;   
         font-size: 16px;    
     }   
+    /* toggler icon style */
+    .navbar-dark .navbar-toggler{
+        border: 2px solid white !important;
+        border-radius: 1px;
+        font-size: 1.25rem;
+    }
+    .navbar-dark .navbar-toggler:focus{
+        box-shadow: none;
+    }
+       /* custom navbar icon */
+     .navbar-dark .navbar-icon{
+        background-color: white;
+        height: 3px;
+        width: 20px;
+        display: block;
+        margin-top: 4px;
+        margin-bottom: 4px;  
+    }
 }
-    
     
 /* ======================================= Home page styling & components ============================================= */
 /* ----banner----- */
@@ -468,6 +494,29 @@ transition-property: all;
 transition-duration: .5s;
 transition-timing-function: ease-in;
 }
+/* ---mediam quary--- */
+@media screen and (max-width:988px) {
+      /* toggler icon style */
+       .navbar-toggler{
+        border: 2px solid var(--primary-color) !important;
+        border-radius: 1px;
+        font-size: 1.25rem;
+    }
+     .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    /* custom navbar icon */
+    .navbar-icon{
+        background-color: var(--primary-color);
+        height: 3px;
+        width: 20px;
+        display: block;
+        margin-top: 4px;
+        margin-bottom: 4px;  
+    }
+
+}
+
 /* navbar end */
   
 
