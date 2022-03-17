@@ -202,6 +202,26 @@ a:hover,a:focus,.a:active {
 .collapse-parent{
     position: relative;
 }
+    /* inner dropdown customize */
+    .navbar-inner-dropdown{
+        margin: 20px 0;
+        box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+        border-radius: 0px;
+        border: none;
+    }
+    .navbar-inner-dropdown a{
+       display: block;
+       padding: 6px 38px 6px 25px;
+       line-height: 1.7;
+       font-weight: 700;
+       font-size: 16px;
+       color: var(--heading-text-color);
+       font-family: var(--font-family-heading);
+       text-transform: capitalize;   
+   }
+   .navbar-inner-dropdown a:hover{
+      color: var(--primary-color);   
+   }
 @media screen and (max-width:988px) {
  .navbar-collapse{
         background-color: white;
@@ -225,28 +245,12 @@ a:hover,a:focus,.a:active {
             margin-top: 4px;
             margin-bottom: 4px;  
         }
+        .navbar-inner-dropdown a{
+            padding: 6px 38px 6px 0px; 
+        }
     
     }
-     /* inner dropdown customize */
-     .navbar-inner-dropdown{
-         margin: 20px 0;
-         box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
-         border-radius: 0px;
-         border: none;
-     }
-     .navbar-inner-dropdown a{
-        display: block;
-        padding: 6px 38px 6px 25px;
-        line-height: 1.7;
-        font-weight: 700;
-        font-size: 16px;
-        color: var(--heading-text-color);
-        font-family: var(--font-family-heading);
-        text-transform: capitalize;   
-    }
-    .navbar-inner-dropdown a:hover{
-       color: var(--primary-color);   
-    }
+ 
 
  /* ====== home page navbar styling===== */
 .home-nav-item
@@ -423,10 +427,10 @@ transition-timing-function: ease-in;
 
 /* ======= our-apps section ======== */
 .our-apps a{
-    padding: 7px 25px;
+    padding: 5px 27px;
 }
 .our-apps a i{
-    font-size: 30px;
+    font-size: 25px;
     margin-right: 10px;
     font-weight: 400;    
 }
@@ -632,12 +636,15 @@ transition-timing-function: ease-in;
     background-color: #fff;
 }
 .faq-area .accordion-item button{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     color: var(--heading-text-color);
     padding: 18px 40px;
     background-color: transparent;
     box-shadow: none;
+}
+.faq-area .accordion-item .accordion-body p{
+    padding-left: 14px;
 }
 
 /* ==== FAQS end=== */
@@ -1120,9 +1127,6 @@ text-decoration: underline;
 }
 
 
-
-
-
 /* ---colorfull input---- */
 .colorfull-input{
     padding: 18px 25px;
@@ -1139,39 +1143,15 @@ text-decoration: underline;
  }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ======================= login and signup page =========================== */
 /* ===button component==== */
+.contact-login{
+    padding: 70px 0;
+}
+.contact-login .card{
+    border: 1px solid #f7f3f3;
+    box-shadow: 0px 10px 90px 20px rgb(0 0 0 / 5%);
+}
 /* login title */
 .login-title{
     color: var(--heading-text-color);
@@ -1203,7 +1183,6 @@ text-decoration: underline;
     background-color: #00acee;
     color: white;
 }
-
 
 
 /* ====== log page end ====== */
