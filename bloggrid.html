@@ -13,20 +13,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <!-- custom css link -->
     <link rel="stylesheet" href="assets/css/index.css">
-     <!-- favicon -->
-     <link rel="icon" href="assets/images/fav-icon/silver-medal.png">
-     <title>Unique - App Landing HTML5 Template</title>
+    <!-- favicon -->
+    <link rel="icon" href="assets/images/fav-icon/silver-medal.png">
+    <title>Unique - App Landing HTML5 Template</title>
 </head>
-
 <body>
-
     <!-- click to top button -->
     <a href="#" id="click-top" class="btn"><i class="fas fa-angle-up"></i></a>
 
-    <section class="hero-area">
-
-        <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
-            <div class="container my-2 collapse-parent">
+    <header class="header">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light  scroll-white">
+            <div class="container ">
                 <!-- brand logo -->
                 <a class="navbar-brand" href="index.html">
                     <img src="assets/images/brand/black-logo.svg" width="100px" class="img-fluid" alt="logo">
@@ -43,27 +40,27 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- navbar nav menu... -->
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                        <li class="nav-item allpage-nav-item">
+                        <li class="nav-item ">
                             <a href="index.html#home" class="nav-link">Home</a>
                         </li>
-                        <li class="nav-item px-lg-2 allpage-nav-item">
+                        <li class="nav-item px-lg-2">
                             <a href="index.html#feature" class="nav-link">Features</a>
                         </li>
-                        <li class="nav-item allpage-nav-item">
+                        <li class="nav-item ">
                             <a href="index.html#Screenshot" class="nav-link ">Screenshot</a>
                         </li>
-                        <li class="nav-item px-lg-2 allpage-nav-item">
+                        <li class="nav-item px-lg-2 ">
                             <a href="index.html#Pricing" class="nav-link">Pricing</a>
                         </li>
-                        <li class="nav-item allpage-nav-item">
+                        <li class="nav-item ">
                             <a href="index.html#our-apps" class="nav-link">Download</a>
                         </li>
-                        <li class="nav-item px-lg-2 allpage-nav-item">
+                        <li class="nav-item px-lg-2">
                             <div class="dropdown">
                                 <a href="#" class="nav-link " role="button" id="innerdropdown" data-bs-toggle="dropdown"
                                     aria-expanded="false">pages <i class="fas fa-angle-down ps-1"></i></a>
                                 <!-- inner dropdown menu -->
-                                <ul class="dropdown-menu navbar-inner-dropdown" aria-labelledby="innerdropdown">
+                                <ul class="dropdown-menu " aria-labelledby="innerdropdown">
                                     <li><a href="FAQS.html" class="dropdown-item ">FAQ Page</a></li>
                                     <li><a href="bloggrid.html" class="dropdown-item ">Blog Grid</a></li>
                                     <li><a href="blogstander.html" class="dropdown-item ">Blog Standard</a></li>
@@ -73,321 +70,326 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="nav-item allpage-nav-item">
+                        <li class="nav-item">
                             <a href="index.html#contact-us" class="nav-link">Contact Us</a>
                         </li>
                     </ul>
                     <!-- button -->
                     <a href="#" class=" btn bt-theme bt-primary d-lg-block d-none mx-lg-2">free trial</a>
                 </div>
-                <!--collapse-->
             </div>
-            <!--container-->
         </nav>
-        <!--nav-->
-        <!-- ===== hero content area ====== -->
-        <div class="container  mt-5 pt-5">
-            <div class="row">
-                <div class="col-12 text-center hero-contant">
-                    <h2 class="hero-title">Blog Grid</h2>
-                    <span><a href="#" class="text-dark">Home</a></span>
-                    <i class="fas fa-hand-point-right"></i>
-                    <span><a href="#" class="text-primary">Blog Grid</a></span>
+    </header>
+
+
+
+
+    <main>
+        <section id="top-banner" class="hero-area">
+            <!-- ===== hero content area ====== -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center hero-contant">
+                        <h2 class="hero-title">Blog Grid</h2>
+                        <span><a href="#" class="text-dark">Home</a></span>
+                        <i class="fas fa-hand-point-right"></i>
+                        <span><a href="#" class="text-primary">Blog Grid</a></span>
+                    </div>
                 </div>
             </div>
+        </section>
+
+        <!-- ===== cards section ====== -->
+        <div class="container mt-5 py-5">
+            <div class="row gy-4  justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-9 ">
+                    <!-- card 1 start -->
+                    <div class="card mediam-card">
+                        <img src="assets/images/card-images/img-1.PNG" class="img-fluid " alt="card-img">
+                        <div class="card-body ps-4">
+                            <ul class="comment-area  ps-0 my-3">
+                                <li><i class="bi bi-clock"></i> Mar 10, 2022</li>
+                                <li>|</li>
+                                <li><i class="bi bi-chat"></i><a href="#"> 0 Comment</a></li>
+                            </ul>
+                            <h5>
+                                <a href="#" class="mediam-card-title">Using Visual Composer Too Builder WordPress</a>
+                            </h5>
+                            <a href="#" class="card-bt my-3">Read More <i class="bi bi-caret-right-fill"></i> </a>
+                        </div>
+                    </div>
+                    <!--card end-->
+                </div>
+                <!--col-->
+
+                <div class="col-lg-4 col-md-6 col-sm-9 ">
+                    <!-- card 2 start -->
+                    <div class="card  mediam-card">
+                        <img src="assets/images/card-images/img-2.PNG" class="img-fluid" alt="card-img">
+                        <div class="card-body ps-4">
+                            <ul class="comment-area ps-0 my-3">
+                                <li><i class="bi bi-clock"></i> Mar 10, 2022</li>
+                                <li>|</li>
+                                <li><i class="bi bi-chat"></i><a href="#"> 0 Comment</a></li>
+                            </ul>
+                            <h5>
+                                <a href="#" class="mediam-card-title">If You Are Going To Use A Passage Of Lorem
+                                    Opsum</a>
+                            </h5>
+                            <a href="#" class="card-bt my-3">Read More <i class="bi bi-caret-right-fill"></i> </a>
+                        </div>
+                    </div>
+                    <!--card end-->
+                </div>
+                <!--col-->
+
+                <div class="col-lg-4 col-md-6 col-sm-9 ">
+                    <!-- card 3 start -->
+                    <div class="card  mediam-card">
+                        <img src="assets/images/card-images/img-3.PNG" class="img-fluid" alt="card-img">
+                        <div class="card-body ps-4">
+                            <ul class="comment-area ps-0 my-3">
+                                <li><i class="bi bi-clock"></i> Mar 10, 2022</li>
+                                <li>|</li>
+                                <li><i class="bi bi-chat"></i><a href="#"> 0 Comment</a></li>
+                            </ul>
+                            <h5>
+                                <a href="#" class="mediam-card-title">Worth an estimated market value software</a>
+                            </h5>
+                            <a href="#" class="card-bt my-3">Read More <i class="bi bi-caret-right-fill"></i> </a>
+                        </div>
+                    </div>
+                    <!--card end-->
+                </div>
+                <!--col-->
+
+                <div class="col-lg-4 col-md-6 col-sm-9 ">
+                    <!-- card 4 start -->
+                    <div class="card  mediam-card">
+                        <img src="assets/images/card-images/img-4.PNG" class="img-fluid" alt="card-img">
+                        <div class="card-body ps-4">
+                            <ul class="comment-area ps-0 my-3">
+                                <li><i class="bi bi-clock"></i> Mar 10, 2022</li>
+                                <li>|</li>
+                                <li><i class="bi bi-chat"></i><a href="#"> 0 Comment</a></li>
+                            </ul>
+                            <h5>
+                                <a href="#" class="mediam-card-title">There Are Many Variations Of Passages
+                                    Available.</a>
+                            </h5>
+                            <a href="#" class="card-bt my-3">Read More <i class="bi bi-caret-right-fill"></i> </a>
+                        </div>
+                    </div>
+                    <!--card end-->
+                </div>
+                <!--col-->
+
+                <div class="col-lg-4 col-md-6 col-sm-9 ">
+                    <!-- card 5 start -->
+                    <div class="card  mediam-card">
+                        <img src="assets/images/card-images/img-5.PNG" class="img-fluid" alt="card-img">
+                        <div class="card-body ps-4">
+                            <ul class="comment-area ps-0 my-3">
+                                <li><i class="bi bi-clock"></i> Mar 10, 2022</li>
+                                <li>|</li>
+                                <li><i class="bi bi-chat"></i><a href="#"> 0 Comment</a></li>
+                            </ul>
+                            <h5>
+                                <a href="#" class="mediam-card-title">Quis Autem Vel Eum Iure Qui In Ea Voluptate.</a>
+                            </h5>
+                            <a href="#" class="card-bt my-3">Read More <i class="bi bi-caret-right-fill"></i> </a>
+                        </div>
+                    </div>
+                    <!--card end-->
+                </div>
+                <!--col-->
+
+                <div class="col-lg-4 col-md-6 col-sm-9 ">
+                    <!-- card 6 start -->
+                    <div class="card  mediam-card">
+                        <img src="assets/images/card-images/img-6.PNG" class="img-fluid " alt="card-img">
+                        <div class="card-body ps-4">
+                            <ul class="comment-area ps-0 my-3">
+                                <li><i class="bi bi-clock"></i> Mar 10, 2022</li>
+                                <li>|</li>
+                                <li><i class="bi bi-chat"></i><a href="#"> 0 Comment</a></li>
+                            </ul>
+                            <h5>
+                                <a href="#" class="mediam-card-title">Denouncing Autem Pleasure And Pain Was Born.</a>
+                            </h5>
+                            <a href="#" class="card-bt my-3">Read More <i class="bi bi-caret-right-fill"></i> </a>
+                        </div>
+                    </div>
+                    <!--card end-->
+                </div>
+                <!--col-->
+
+                <div class="col-lg-4 col-md-6 col-sm-9 ">
+                    <!-- card 7 start -->
+                    <div class="card  mediam-card">
+                        <img src="assets/images/card-images/img-7.PNG" class="img-fluid" alt="card-img">
+                        <div class="card-body ps-4">
+                            <ul class="comment-area ps-0 my-3">
+                                <li><i class="bi bi-clock"></i> Mar 10, 2022</li>
+                                <li>|</li>
+                                <li><i class="bi bi-chat"></i><a href="#"> 0 Comment</a></li>
+                            </ul>
+                            <h5>
+                                <a href="#" class="mediam-card-title">On The Other Hand Denouce With Indignation.</a>
+                            </h5>
+                            <a href="#" class="card-bt my-3">Read More <i class="bi bi-caret-right-fill"></i> </a>
+                        </div>
+                    </div>
+                    <!--card end-->
+                </div>
+                <!--col-->
+
+                <div class="col-lg-4 col-md-6 col-sm-9 ">
+                    <!-- card 8 start -->
+                    <div class="card  mediam-card">
+                        <img src="assets/images/card-images/img-8.PNG" class="img-fluid" alt="card-img">
+                        <div class="card-body ps-4">
+                            <ul class="comment-area ps-0 my-3">
+                                <li><i class="bi bi-clock"></i> Mar 10, 2022</li>
+                                <li>|</li>
+                                <li><i class="bi bi-chat"></i><a href="#"> 0 Comment</a></li>
+                            </ul>
+                            <h5>
+                                <a href="#" class="mediam-card-title">Using Visual Composer Too Builder WordPress.</a>
+                            </h5>
+                            <a href="#" class="card-bt my-3">Read More <i class="bi bi-caret-right-fill"></i> </a>
+                        </div>
+                    </div>
+                    <!--card end-->
+                </div>
+                <!--col-->
+
+                <div class="col-lg-4 col-md-6 col-sm-9 ">
+                    <!-- card 9 start -->
+                    <div class="card  mediam-card">
+                        <img src="assets/images/card-images/img-9.PNG" class="img-fluid " alt="card-img">
+                        <div class="card-body ps-4">
+                            <ul class="comment-area ps-0 my-3">
+                                <li><i class="bi bi-clock"></i> Mar 10, 2022</li>
+                                <li>|</li>
+                                <li><i class="bi bi-chat"></i><a href="#"> 0 Comment</a></li>
+                            </ul>
+                            <h5>
+                                <a href="#" class="mediam-card-title">Worth an estimated market value software.</a>
+                            </h5>
+                            <a href="#" class="card-bt my-3">Read More <i class="bi bi-caret-right-fill"></i> </a>
+                        </div>
+                    </div>
+                    <!--card end-->
+                </div>
+                <!--col-->
+            </div>
+            <!--row-->
+
+            <!-- new row -->
+            <div class="row  mt-5 justify-content-center ">
+                <div class="col-lg-7 text-center">
+                    <!-- pagination start -->
+                    <ul class="custom-pagination">
+                        <li><a href="bloggrid.html"><i class="fas fa-angle-double-left"></i></a></li>
+                        <li><a href="bloggrid.html">1</a></li>
+                        <li><a href="bloggrid.html" class="active-pagination-link">2</a></li>
+                        <li><a href="bloggrid.html">3</a></li>
+                        <li><a href="bloggrid.html">...</a></li>
+                        <li><a href="bloggrid.html">10</a></li>
+                        <li><a href="bloggrid.html"><i class="fas fa-angle-double-right"></i></a></a></li>
+                    </ul>
+                    <!-- pagination end -->
+                </div>
+            </div>
+            <!--row-->
         </div>
-
-    </section>
-    <!--section-->
-
-    <!-- ===== cards section ====== -->
-
-    <div class="container mt-5 py-5">
-        <div class="row gy-4  justify-content-center">
-
-            <div class="col-lg-4 col-md-6 col-sm-9 ">
-                <!-- card 1 start -->
-                <div class="card mediam-card">
-                    <img src="assets/images/card-images/img-1.PNG" class="img-fluid " alt="card-img">
-                    <div class="card-body ps-4">
-                        <ul class="comment-area  ps-0 my-3">
-                            <li><i class="bi bi-clock"></i> Mar 10, 2022</li>
-                            <li>|</li>
-                            <li><i class="bi bi-chat"></i><a href="#"> 0 Comment</a></li>
-                        </ul>
-                        <h5>
-                            <a href="#" class="mediam-card-title">Using Visual Composer Too Builder WordPress</a>
-                        </h5>
-                        <a href="#" class="card-bt my-3">Read More <i class="bi bi-caret-right-fill"></i> </a>
-                    </div>
-                </div>
-                <!--card end-->
-            </div>
-            <!--col-->
-
-            <div class="col-lg-4 col-md-6 col-sm-9 ">
-                <!-- card 2 start -->
-                <div class="card  mediam-card">
-                    <img src="assets/images/card-images/img-2.PNG" class="img-fluid" alt="card-img">
-                    <div class="card-body ps-4">
-                        <ul class="comment-area ps-0 my-3">
-                            <li><i class="bi bi-clock"></i> Mar 10, 2022</li>
-                            <li>|</li>
-                            <li><i class="bi bi-chat"></i><a href="#"> 0 Comment</a></li>
-                        </ul>
-                        <h5>
-                            <a href="#" class="mediam-card-title">If You Are Going To Use A Passage Of Lorem Opsum</a>
-                        </h5>
-                        <a href="#" class="card-bt my-3">Read More <i class="bi bi-caret-right-fill"></i> </a>
-                    </div>
-                </div>
-                <!--card end-->
-            </div>
-            <!--col-->
-
-            <div class="col-lg-4 col-md-6 col-sm-9 ">
-                <!-- card 3 start -->
-                <div class="card  mediam-card">
-                    <img src="assets/images/card-images/img-3.PNG" class="img-fluid" alt="card-img">
-                    <div class="card-body ps-4">
-                        <ul class="comment-area ps-0 my-3">
-                            <li><i class="bi bi-clock"></i> Mar 10, 2022</li>
-                            <li>|</li>
-                            <li><i class="bi bi-chat"></i><a href="#"> 0 Comment</a></li>
-                        </ul>
-                        <h5>
-                            <a href="#" class="mediam-card-title">Worth an estimated market value software</a>
-                        </h5>
-                        <a href="#" class="card-bt my-3">Read More <i class="bi bi-caret-right-fill"></i> </a>
-                    </div>
-                </div>
-                <!--card end-->
-            </div>
-            <!--col-->
-
-            <div class="col-lg-4 col-md-6 col-sm-9 ">
-                <!-- card 4 start -->
-                <div class="card  mediam-card">
-                    <img src="assets/images/card-images/img-4.PNG" class="img-fluid" alt="card-img">
-                    <div class="card-body ps-4">
-                        <ul class="comment-area ps-0 my-3">
-                            <li><i class="bi bi-clock"></i> Mar 10, 2022</li>
-                            <li>|</li>
-                            <li><i class="bi bi-chat"></i><a href="#"> 0 Comment</a></li>
-                        </ul>
-                        <h5>
-                            <a href="#" class="mediam-card-title">There Are Many Variations Of Passages Available.</a>
-                        </h5>
-                        <a href="#" class="card-bt my-3">Read More <i class="bi bi-caret-right-fill"></i> </a>
-                    </div>
-                </div>
-                <!--card end-->
-            </div>
-            <!--col-->
-
-            <div class="col-lg-4 col-md-6 col-sm-9 ">
-                <!-- card 5 start -->
-                <div class="card  mediam-card">
-                    <img src="assets/images/card-images/img-5.PNG" class="img-fluid" alt="card-img">
-                    <div class="card-body ps-4">
-                        <ul class="comment-area ps-0 my-3">
-                            <li><i class="bi bi-clock"></i> Mar 10, 2022</li>
-                            <li>|</li>
-                            <li><i class="bi bi-chat"></i><a href="#"> 0 Comment</a></li>
-                        </ul>
-                        <h5>
-                            <a href="#" class="mediam-card-title">Quis Autem Vel Eum Iure Qui In Ea Voluptate.</a>
-                        </h5>
-                        <a href="#" class="card-bt my-3">Read More <i class="bi bi-caret-right-fill"></i> </a>
-                    </div>
-                </div>
-                <!--card end-->
-            </div>
-            <!--col-->
-
-            <div class="col-lg-4 col-md-6 col-sm-9 ">
-                <!-- card 6 start -->
-                <div class="card  mediam-card">
-                    <img src="assets/images/card-images/img-6.PNG" class="img-fluid " alt="card-img">
-                    <div class="card-body ps-4">
-                        <ul class="comment-area ps-0 my-3">
-                            <li><i class="bi bi-clock"></i> Mar 10, 2022</li>
-                            <li>|</li>
-                            <li><i class="bi bi-chat"></i><a href="#"> 0 Comment</a></li>
-                        </ul>
-                        <h5>
-                            <a href="#" class="mediam-card-title">Denouncing Autem Pleasure And Pain Was Born.</a>
-                        </h5>
-                        <a href="#" class="card-bt my-3">Read More <i class="bi bi-caret-right-fill"></i> </a>
-                    </div>
-                </div>
-                <!--card end-->
-            </div>
-            <!--col-->
-
-            <div class="col-lg-4 col-md-6 col-sm-9 ">
-                <!-- card 7 start -->
-                <div class="card  mediam-card">
-                    <img src="assets/images/card-images/img-7.PNG" class="img-fluid" alt="card-img">
-                    <div class="card-body ps-4">
-                        <ul class="comment-area ps-0 my-3">
-                            <li><i class="bi bi-clock"></i> Mar 10, 2022</li>
-                            <li>|</li>
-                            <li><i class="bi bi-chat"></i><a href="#"> 0 Comment</a></li>
-                        </ul>
-                        <h5>
-                            <a href="#" class="mediam-card-title">On The Other Hand Denouce With Indignation.</a>
-                        </h5>
-                        <a href="#" class="card-bt my-3">Read More <i class="bi bi-caret-right-fill"></i> </a>
-                    </div>
-                </div>
-                <!--card end-->
-            </div>
-            <!--col-->
-
-            <div class="col-lg-4 col-md-6 col-sm-9 ">
-                <!-- card 8 start -->
-                <div class="card  mediam-card">
-                    <img src="assets/images/card-images/img-8.PNG" class="img-fluid" alt="card-img">
-                    <div class="card-body ps-4">
-                        <ul class="comment-area ps-0 my-3">
-                            <li><i class="bi bi-clock"></i> Mar 10, 2022</li>
-                            <li>|</li>
-                            <li><i class="bi bi-chat"></i><a href="#"> 0 Comment</a></li>
-                        </ul>
-                        <h5>
-                            <a href="#" class="mediam-card-title">Using Visual Composer Too Builder WordPress.</a>
-                        </h5>
-                        <a href="#" class="card-bt my-3">Read More <i class="bi bi-caret-right-fill"></i> </a>
-                    </div>
-                </div>
-                <!--card end-->
-            </div>
-            <!--col-->
-
-            <div class="col-lg-4 col-md-6 col-sm-9 ">
-                <!-- card 9 start -->
-                <div class="card  mediam-card">
-                    <img src="assets/images/card-images/img-9.PNG" class="img-fluid " alt="card-img">
-                    <div class="card-body ps-4">
-                        <ul class="comment-area ps-0 my-3">
-                            <li><i class="bi bi-clock"></i> Mar 10, 2022</li>
-                            <li>|</li>
-                            <li><i class="bi bi-chat"></i><a href="#"> 0 Comment</a></li>
-                        </ul>
-                        <h5>
-                            <a href="#" class="mediam-card-title">Worth an estimated market value software.</a>
-                        </h5>
-                        <a href="#" class="card-bt my-3">Read More <i class="bi bi-caret-right-fill"></i> </a>
-                    </div>
-                </div>
-                <!--card end-->
-            </div>
-            <!--col-->
-        </div>
-        <!--row-->
-
-
-        <!-- new row -->
-        <div class="row  mt-5 justify-content-center ">
-            <div class="col-lg-7 text-center">
-                <!-- pagination start -->
-                <ul class="custom-pagination">
-                    <li><a href="bloggrid.html"><i class="fas fa-angle-double-left"></i></a></li>
-                    <li><a href="bloggrid.html">1</a></li>
-                    <li><a href="bloggrid.html" class="active-pagination-link">2</a></li>
-                    <li><a href="bloggrid.html">3</a></li>
-                    <li><a href="bloggrid.html">...</a></li>
-                    <li><a href="bloggrid.html">10</a></li>
-                    <li><a href="bloggrid.html"><i class="fas fa-angle-double-right"></i></a></a></li>
-                </ul>
-                <!-- pagination end -->
-            </div>
-        </div>
-        <!--row-->
-    </div>
-    <!--container-->
-
+        <!--container-->
+    </main>
 
     <!-- ============ footer section ============ -->
-    <section class="footer-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 ">
-                    <a href="index.html">
-                        <img src="assets/images/brand/black-logo.svg" width="100px" class="img-fluid mb-3"
-                            alt="black-logo">
-                    </a>
-                    <p class="theme-para">Sed ut perspiciatis unde om is nerror sit voluptatem accustium dolorem tium
-                        totam rem aperam eaque ipsa quae ab illose inntore veritatis et quasi way his mind.</p>
-                </div>
+    <footer>
+        <section class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 ">
+                        <a href="index.html">
+                            <img src="assets/images/brand/black-logo.svg" width="100px" class="img-fluid mb-3"
+                                alt="black-logo">
+                        </a>
+                        <p class="theme-para">Sed ut perspiciatis unde om is nerror sit voluptatem accustium dolorem
+                            tium
+                            totam rem aperam eaque ipsa quae ab illose inntore veritatis et quasi way his mind.</p>
+                    </div>
 
-                <div class="col-lg-3 col-md-6 ">
-                    <h4 class="foo-title">Useful Links</h4>
-                    <ul class="custom-uolist">
-                        <li><a href="#"><i class="bi bi-caret-right-fill pe-2"></i>Home</a></li>
-                        <li><a href="#"><i class="bi bi-caret-right-fill pe-2"></i>About Us</a></li>
-                        <li><a href="#"><i class="bi bi-caret-right-fill pe-2"></i>Services</a></li>
-                        <li><a href="#"><i class="bi bi-caret-right-fill pe-2"></i>Project</a></li>
-                        <li><a href="#"><i class="bi bi-caret-right-fill pe-2"></i>Our Team</a></li>
-                        <li><a href="#"><i class="bi bi-caret-right-fill pe-2"></i>Latest Blog</a></li>
-                    </ul>
-                </div>
+                    <div class="col-lg-3 col-md-6 ">
+                        <h4 class="foo-title">Useful Links</h4>
+                        <ul class="custom-uolist">
+                            <li><a href="#"><i class="bi bi-caret-right-fill pe-2"></i>Home</a></li>
+                            <li><a href="#"><i class="bi bi-caret-right-fill pe-2"></i>About Us</a></li>
+                            <li><a href="#"><i class="bi bi-caret-right-fill pe-2"></i>Services</a></li>
+                            <li><a href="#"><i class="bi bi-caret-right-fill pe-2"></i>Project</a></li>
+                            <li><a href="#"><i class="bi bi-caret-right-fill pe-2"></i>Our Team</a></li>
+                            <li><a href="#"><i class="bi bi-caret-right-fill pe-2"></i>Latest Blog</a></li>
+                        </ul>
+                    </div>
 
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="foo-title">Newsletter</h4>
-                    <ul class="custom-uolist">
-                        <li>
-                            <p class="foo-subtitle">Subscribe to our list to get the up to your email inbox</p>
-                        </li>
-                        <li>
-                            <form action="">
-                                <input type="text" class="form-control foo-input" placeholder="Enter your email">
-                            </form>
-                        </li>
-                        <li>
-                            <a href="#" class="btn  bt-theme bt-primary">subscribe</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6 ">
-                    <h4 class="foo-title">Contact Us</h4>
-                    <ul class="custom-uolist">
-                        <li><i class="fas fa-home pe-2  text-primary"></i>No.123 Chalingt Gates, Supper market New York
-                        </li>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="foo-title">Newsletter</h4>
+                        <ul class="custom-uolist">
+                            <li>
+                                <p class="foo-subtitle">Subscribe to our list to get the up to your email inbox</p>
+                            </li>
+                            <li>
+                                <form action="">
+                                    <input type="text" class="form-control foo-input" placeholder="Enter your email">
+                                </form>
+                            </li>
+                            <li>
+                                <a href="#" class="btn  bt-theme bt-primary">subscribe</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 ">
+                        <h4 class="foo-title">Contact Us</h4>
+                        <ul class="custom-uolist">
+                            <li><i class="fas fa-home pe-2  text-primary"></i>No.123 Chalingt Gates, Supper market New
+                                York
+                            </li>
 
-                        <li><i class="fas fa-envelope-open pe-2 text-primary"></i>support@gmail.com</li>
+                            <li><i class="fas fa-envelope-open pe-2 text-primary"></i>support@gmail.com</li>
 
-                        <li><a href="#"><i class="fas fa-headphones pe-2 text-primary"></i>+012 (4567) 789</a></li>
+                            <li><a href="#"><i class="fas fa-headphones pe-2 text-primary"></i>+012 (4567) 789</a></li>
 
-                        <li></i>Follow Us
-                            <a href="#"><i class="fab fa-facebook-f  px-3"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram px-3"></i></a>
-                            <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- footer 2 box -->
-        <div class="container py-2">
-            <hr class="text-muted mb-4">
-            <div class="row ">
-                <div class="col-lg-6 text-lg-start text-center">
-                    <p class="theme-para">All Rights Reserved ©2022 Themeadapt.</p>
-                </div>
-                <div class="col-lg-6 text-lg-end text-center">
-                    <ul class="custom-uolist ">
-                        <li class="list-inline-item"><a href="#">Terms & Condition</a></li>
-                        <li class="list-inline-item px-3"><a href="#">Privacy Policy</a></li>
-                        <li class="list-inline-item"><a href="#">Contact Us</a></li>
-                    </ul>
+                            <li></i>Follow Us
+                                <a href="#"><i class="fab fa-facebook-f  px-3"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram px-3"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+
+            <!-- footer 2 box -->
+            <div class="container py-2">
+                <hr class="text-muted mb-4">
+                <div class="row ">
+                    <div class="col-lg-6 text-lg-start text-center">
+                        <p class="theme-para">All Rights Reserved ©2022 Themeadapt.</p>
+                    </div>
+                    <div class="col-lg-6 text-lg-end text-center">
+                        <ul class="custom-uolist ">
+                            <li class="list-inline-item"><a href="#">Terms & Condition</a></li>
+                            <li class="list-inline-item px-3"><a href="#">Privacy Policy</a></li>
+                            <li class="list-inline-item"><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
