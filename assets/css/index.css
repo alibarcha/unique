@@ -1,7 +1,5 @@
 /* =====google fonts===== */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800&family=Poppins:wght@300;400;500&display=swap');
-
-
 /* ===== css variables===== */
 :root{
     --font-family-body: 'Poppins', sans-serif;
@@ -16,7 +14,6 @@
 	--paragraph-text-color: #656565;
     --gradient-color: linear-gradient(to right, #26d0ce 0%, #1a2980 50%, #26d0ce 100%);
 } 
-
 body{
     font-family: var(--font-family-body);
     overflow-x: hidden;
@@ -54,7 +51,6 @@ a:hover,a:focus,.a:active {
     border:none;
     box-shadow: none;
 }
-
 /* ======================components======================== */
 /* -----typography----- */
  h1,h2,h3,h4,h5,h6{
@@ -105,7 +101,6 @@ a:hover,a:focus,.a:active {
 	color: var(--paragraph-text-color);
 	margin-bottom: 10px;
 }
-
 /* =====buttons components===== */
 .bt-theme{
     padding: 13px 40px;
@@ -177,8 +172,6 @@ a:hover,a:focus,.a:active {
     background-color: var(--heading-text-color);
 }
 /* =====buttons components end===== */
-
-
 /* ======== form input components==== */
 .theme-input{
     border:  1px solid #ccc;
@@ -192,8 +185,6 @@ a:hover,a:focus,.a:active {
      box-shadow: none;
      border-color: #3878ff;
  }
-
-
  /* css animations  */
  @keyframes fadeInDown {
     0% {
@@ -209,11 +200,8 @@ a:hover,a:focus,.a:active {
         transform: translateY(0);
     }
 }
-
-
 /* ========header | navbar components styling====== */
 /* ----- navbar customiaze and override classes----- */
-
 header .navbar{
     position: absolute;
     background-color: transparent;
@@ -233,7 +221,6 @@ header .navbar.sticky-menu {
     animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
     border-radius: 0;
     box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
-
 }
 header .navbar.sticky-menu.scroll-white {
     background: white;
@@ -241,7 +228,6 @@ header .navbar.sticky-menu.scroll-white {
 header .navbar.sticky-menu.scroll-primary {
     background: linear-gradient(79deg, rgba(77,215,216,1) 0%, rgba(49,63,142,1) 100%);
 }
-
 .header .navbar  .navbar-nav .nav-link{
     position: relative;
     font-size: 15px;
@@ -297,7 +283,6 @@ header .navbar.sticky-menu.scroll-primary {
 .header .navbar .navbar-nav .dropdown-menu a:hover{
     color: var(--primary-color);   
 }
-
  /* custom navbar toggler icon */
 .header .navbar .navbar-toggler{
     border-radius: 1px;
@@ -327,8 +312,6 @@ header .navbar.sticky-menu.scroll-primary {
 .header .navbar-light .navbar-toggler .navbar-icon{
     background-color: var(--primary-color);
 }
-
-
 @media screen and (max-width:988px) {
     .header .navbar .navbar-collapse{
         margin-top:15px;
@@ -341,7 +324,6 @@ header .navbar.sticky-menu.scroll-primary {
         max-height: 300px;
         overflow-y: auto;
     }  
-  
     /* nav links color change */
     .header .navbar  .navbar-nav .nav-link{
         color: black ;    
@@ -351,15 +333,6 @@ header .navbar.sticky-menu.scroll-primary {
     }
 
 }
-
-/* .navbar .nav-item .dropdown-menu{ 
-    display: none;
-}
-.navbar .nav-item:hover .dropdown-menu{ 
-    display: block; 
-  transform: .3s;
-} */
-
 
 /* ======================================= Home page styling & components ============================================= */
 /* ----banner----- */
@@ -396,9 +369,7 @@ header .navbar.sticky-menu.scroll-primary {
     background-size: cover;
     background-position: center;
 }
-
 /* -------screenshoot area------ */
-
 
 /* ======== User Feedback   Our Clients======== */
 .user-feedback{
@@ -531,10 +502,7 @@ header .navbar.sticky-menu.scroll-primary {
     font-weight: normal;
 }
 /* footer end */
-
-
 /* ============================ FAQ Page styling and components ========================== */
-
 /* === hero-area section== */
 .hero-area{
     min-height: 65vh;
@@ -542,7 +510,6 @@ header .navbar.sticky-menu.scroll-primary {
     display: flex;
     align-items: center;
 }
-
 /*  === hero title component === */
 .hero-title{
     font-size: 48px;
@@ -563,7 +530,6 @@ header .navbar.sticky-menu.scroll-primary {
     padding: 15px;
 }
 /* hero style end */
-
 /* -----tabs and accordion styling----- */
 .faq-area .custom-tab-item{
     font-size: 14px; 
@@ -594,7 +560,6 @@ header .navbar.sticky-menu.scroll-primary {
     padding-left: 14px;
 }
 /* ==== FAQS end=== */
-
 /* ================ Blog Grid css ======================= */
 /* --- mediam card start--- */
 .mediam-card{
@@ -664,9 +629,7 @@ header .navbar.sticky-menu.scroll-primary {
     padding-right: 5px;
 }
 /* --- mediam card end--- */
-
 /* ==== pagination start==== */
-
 .custom-pagination{
     list-style: none;
 }
@@ -695,12 +658,8 @@ header .navbar.sticky-menu.scroll-primary {
     background-color: var(--primary-color);
     color: white;
 }
-
 /* ==== pagination end=== */
-
-
 /* =========== blog stander page ================= */
-
 /* --- large card start--- */
 .large-card{
     border-radius: 10px;
@@ -744,7 +703,6 @@ header .navbar.sticky-menu.scroll-primary {
     color: var(--primary-color);
 }
 /* --- large card end--- */
-
 /* ----- widget compponents -----*/
 /* --widget title */
 .widget-title{
@@ -795,7 +753,6 @@ top: 22px;
 font-size: 16px;
 color: gray;
 }
-
 /* ------recent-post components------ */
 .recent-post{
     list-style: none;
@@ -898,9 +855,7 @@ color: gray;
     color: white;
 }
 /* ---tags end ----- */
-
 /* ==================== blog details ================= */
-
 /* --blockquote---- */
 .theme-blockquote{
     font-size: 18px;
@@ -967,14 +922,12 @@ color: gray;
 text-decoration: underline;
 }
 /* blog details list end */
-
  /* tags and social links area  */
  .blog-tags{
      display: flex;
      flex-wrap: wrap;
      list-style: none;
-     padding-left: 0;
-       
+     padding-left: 0;    
  }
  .blog-tags li{
      color: var(--paragraph-text-color);
@@ -1025,8 +978,6 @@ text-decoration: underline;
     background-color: #1976d2;
 }
  /* tags and social links area end  */
-
-
 /* ----------comment-area------------ */
 .replay-box li{
     display: flex;
@@ -1059,7 +1010,6 @@ text-decoration: underline;
 .comment-reply:hover{
     color: var(--primary-color);
 }
-
 /* --- media quary ----- */
 @media screen and (max-width:768px){
     .replay-box li{
@@ -1070,7 +1020,6 @@ text-decoration: underline;
         padding-left: 0px;
         padding-top: 10px;
      }
-    
 }
 
 /* ---colorfull input---- */
@@ -1087,8 +1036,6 @@ text-decoration: underline;
      background-color:#ebf5ff ;
      box-shadow: none; 
  }
-
-
 /* ======================= login and signup page =========================== */
 /* ===button component==== */
 .contact-login{
@@ -1130,9 +1077,6 @@ text-decoration: underline;
     color: white;
 }
 /* ====== login page end ====== */
-
-
-
 /* ============== commingsoon page =================== */
 .commingsoon-area{
     min-height: 100vh;  

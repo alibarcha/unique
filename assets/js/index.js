@@ -5,7 +5,6 @@
     document.getElementById("top-banner").style.paddingTop = `${navbarHeight}px`;
  
  })();
-
 // navbar sticky js
 const stickyMenu = () => {
     const navbar = document.getElementById("navbar")
@@ -15,7 +14,6 @@ const stickyMenu = () => {
         navbar.classList.remove("sticky-menu")
     }
 }
-
 window.addEventListener('scroll', stickyMenu);
 
 
