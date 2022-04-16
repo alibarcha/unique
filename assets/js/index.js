@@ -17,6 +17,27 @@ const stickyMenu = () => {
 window.addEventListener('scroll', stickyMenu);
 
 
+// click to top button functionality
+
+const clickbtn = () => {
+    const clickBtn = document.getElementById("click-top")
+    if (window.scrollY > 300) {
+        clickBtn.classList.add("stick-click")
+    } else {
+        clickBtn.classList.remove("stick-click")
+    }
+}
+window.addEventListener('scroll', clickbtn);
+
+
+
+
+
+
+
+
+
+
 
 
 
