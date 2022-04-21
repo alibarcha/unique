@@ -183,7 +183,7 @@ a:hover,a:focus,.a:active {
 .theme-input{
     border:  1px solid #ccc;
     padding: 14px 20px;
-    /* margin-bottom: 30px; */
+    margin-bottom: 30px;
     width: 100%;
     border-radius: 0px;
     font-size: 14px;
